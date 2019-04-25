@@ -20,5 +20,7 @@ https://github.com/Croteam-official/Serious-Engine
 * Receive all weapons
 * Fill HP/AP
 * Fill Ammo
+* Mouse based menu
+* Engine based drawing
 
 ![Screenshot](screen.png)
