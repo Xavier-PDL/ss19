@@ -10,6 +10,7 @@ https://github.com/Croteam-official/Serious-Engine
 * ESP
 * God Mode
 * Infinite Ammo
+* Rapidfire
 * Noclip / Fly
 * Press space for super/multi jump
 * Fall slowly
