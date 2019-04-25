@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\sdk">
+      <UniqueIdentifier>{6205b995-e154-439f-bcf0-91cfc3ff6ac0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sdk">
+      <UniqueIdentifier>{4ff59f65-5226-450b-b484-b33b8da756eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sdk\Engine">
+      <UniqueIdentifier>{84fd45b7-dec6-48c2-9eed-edc4fc449bff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sdk\Engine\Network">
+      <UniqueIdentifier>{62fa9e0d-0077-4df6-9717-671417af2d30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sdk\Engine">
+      <UniqueIdentifier>{04650875-de83-4b2a-a6dc-d9adb01a3da0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sdk\Engine\Base">
+      <UniqueIdentifier>{0fee1ef4-f50e-497e-97a3-7baadc54eca3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sdk\Engine\Network">
+      <UniqueIdentifier>{4281c44e-fcd9-4ce0-88f9-f168358f2840}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sdk\Engine\Math">
+      <UniqueIdentifier>{3d9e821d-677c-43f7-abb1-94c9db70fd36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sdk\Engine\Templates">
+      <UniqueIdentifier>{4a8b19db-06f5-4731-a45c-a75c99482987}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sdk\Engine\Entities">
+      <UniqueIdentifier>{5b6c42e3-7b94-45af-b286-78f53aa0b551}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sdk\Engine\Math">
+      <UniqueIdentifier>{7590a745-1beb-4bf9-9845-c10bc4d30bea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sdk\Engine\World">
+      <UniqueIdentifier>{6f305412-7e07-43ab-8f69-842f1cb99245}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sdk\Engine\Classes">
+      <UniqueIdentifier>{9ddc3b41-653b-4bce-bf6c-71a05a4e2fb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sdk\Engine\Entities">
+      <UniqueIdentifier>{a97f8bb0-11db-45c8-80a9-5250d4c7e91d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sdk\Engine\Graphics">
+      <UniqueIdentifier>{0498c79a-061a-413a-8d64-43837b299f9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sdk\Engine\Graphics">
+      <UniqueIdentifier>{68be77a6-6c28-4851-833d-70d2d280b1ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sdk\Engine\Base">
+      <UniqueIdentifier>{4f1a884b-2742-4711-9af8-55a4a3e9a369}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sdk\Entities">
+      <UniqueIdentifier>{7c097a34-9688-49f8-be08-92669752c6e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sdk\Entities\Common">
+      <UniqueIdentifier>{507b4c50-a8f6-414c-a5a5-0987f17c2677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\hack">
+      <UniqueIdentifier>{0af12759-f5d4-41e5-9427-9c441bed4fdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\help">
+      <UniqueIdentifier>{9c757cb0-df1c-4642-8e55-8f0b19973a9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hack">
+      <UniqueIdentifier>{5c9e88b8-2c72-45a9-b45a-57763aad6210}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\help">
+      <UniqueIdentifier>{d447cb25-6415-49dc-8296-785eba1f9297}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sdk\Engine\World">
+      <UniqueIdentifier>{a0df2278-f229-428b-833e-d5dc5ab6461e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\hack\menu">
+      <UniqueIdentifier>{9ac49cd1-29be-4ea9-98aa-d5bd860672e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hack\menu">
+      <UniqueIdentifier>{a9114fba-5c15-4fbd-8055-d837ff70b4ed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sdk\Engine\Network\Network.cpp">
+      <Filter>Source Files\sdk\Engine\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\Engine\Math\Geometry.cpp">
+      <Filter>Source Files\sdk\Engine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\Engine\Entities\Entity.cpp">
+      <Filter>Source Files\sdk\Engine\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\Engine\Math\Functions.cpp">
+      <Filter>Source Files\sdk\Engine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\Engine\Graphics\DrawPort.cpp">
+      <Filter>Source Files\sdk\Engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\Engine\Base\CTString.cpp">
+      <Filter>Source Files\sdk\Engine\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Aimbot.cpp">
+      <Filter>Source Files\hack</Filter>
+    </ClCompile>
+    <ClCompile Include="Draw.cpp">
+      <Filter>Source Files\hack</Filter>
+    </ClCompile>
+    <ClCompile Include="ESP.cpp">
+      <Filter>Source Files\hack</Filter>
+    </ClCompile>
+    <ClCompile Include="Hack.cpp">
+      <Filter>Source Files\hack</Filter>
+    </ClCompile>
+    <ClCompile Include="DllMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\Engine\World\WorldRayCasting.cpp">
+      <Filter>Source Files\sdk\Engine\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>Source Files\help</Filter>
+    </ClCompile>
+    <ClCompile Include="gui.cpp">
+      <Filter>Source Files\hack\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Options.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyInput.cpp">
+      <Filter>Source Files\hack</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\Engine\Graphics\GfxLibrary.cpp">
+      <Filter>Source Files\sdk\Engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\Engine\Entities\EntityProperties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\EntitiesMP\Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\EntitiesMP\PowerUpItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\EntitiesMP\WeaponItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TMem.cpp">
+      <Filter>Source Files\help</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sdk\Engine\Base\Base.h">
+      <Filter>Header Files\sdk\Engine\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Engine\Base\CTString.h">
+      <Filter>Header Files\sdk\Engine\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Engine\Base\Lists.h">
+      <Filter>Header Files\sdk\Engine\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Engine\Base\Synchronization.h">
+      <Filter>Header Files\sdk\Engine\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Engine\Base\Timer.h">
+      <Filter>Header Files\sdk\Engine\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Engine\Base\Types.h">
+      <Filter>Header Files\sdk\Engine\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Engine\Network\Network.h">
+      <Filter>Header Files\sdk\Engine\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Engine\Network\ActionBuffer.h">
+      <Filter>Header Files\sdk\Engine\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Engine\Network\NetworkMessage.h">
+      <Filter>Header Files\sdk\Engine\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Engine\Network\PlayerTarget.h">
+      <Filter>Header Files\sdk\Engine\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Engine\Network\SessionSocket.h">
+      <Filter>Header Files\sdk\Engine\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Engine\Network\SessionState.h">
+      <Filter>Header Files\sdk\Engine\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Engine\Math\AABBox.h">
+      <Filter>Header Files\sdk\Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Engine\Math\Functions.h">
+      <Filter>Header Files\sdk\Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Engine\Math\Geometry.h">
+      <Filter>Header Files\sdk\Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Engine\Math\Matrix.h">
+      <Filter>Header Files\sdk\Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Engine\Math\Placement.h">
+      <Filter>Header Files\sdk\Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Engine\Math\Plane.h">
+      <Filter>Header Files\sdk\Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Engine\Math\Vector.h">
+      <Filter>Header Files\sdk\Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Engine\Entities\Entity.h">
+      <Filter>Header Files\sdk\Engine\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Engine\Entities\EntityPointer.h">
+      <Filter>Header Files\sdk\Engine\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Engine\Templates\DynamicArray.h">
+      <Filter>Header Files\sdk\Engine\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Engine\Templates\DynamicContainer.h">
+      <Filter>Header Files\sdk\Engine\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Engine\Templates\DynamicStackArray.h">
+      <Filter>Header Files\sdk\Engine\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Engine\Templates\StaticArray.h">
+      <Filter>Header Files\sdk\Engine\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Engine\Templates\StaticStackArray.h">
+      <Filter>Header Files\sdk\Engine\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Engine\World\World.h">
+      <Filter>Header Files\sdk\Engine\World</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Engine\Classes\MovableBrushEntity.h">
+      <Filter>Header Files\sdk\Engine\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Engine\Classes\MovableEntity.h">
+      <Filter>Header Files\sdk\Engine\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Engine\Classes\MovableModelEntity.h">
+      <Filter>Header Files\sdk\Engine\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Engine\Classes\PlayerEntity.h">
+      <Filter>Header Files\sdk\Engine\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Engine\Entities\PlayerCharacter.h">
+      <Filter>Header Files\sdk\Engine\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Engine\Graphics\DrawPort.h">
+      <Filter>Header Files\sdk\Engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Engine\Graphics\Font.h">
+      <Filter>Header Files\sdk\Engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Engine\Graphics\Raster.h">
+      <Filter>Header Files\sdk\Engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Engine\Graphics\ViewPort.h">
+      <Filter>Header Files\sdk\Engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\EntitiesMP\Camera.h">
+      <Filter>Header Files\sdk\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\EntitiesMP\Player.h">
+      <Filter>Header Files\sdk\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\EntitiesMP\Common\Common.h">
+      <Filter>Header Files\sdk\Entities\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\EntitiesMP\Common\GameInterface.h">
+      <Filter>Header Files\sdk\Entities\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\sdk.h">
+      <Filter>Header Files\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Engine\Math\Projection.h">
+      <Filter>Header Files\sdk\Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Engine\Math\Quaternion.h">
+      <Filter>Header Files\sdk\Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="TMem.h">
+      <Filter>Header Files\help</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>Header Files\help</Filter>
+    </ClInclude>
+    <ClInclude Include="Aimbot.h">
+      <Filter>Header Files\hack</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw.h">
+      <Filter>Header Files\hack</Filter>
+    </ClInclude>
+    <ClInclude Include="ESP.h">
+      <Filter>Header Files\hack</Filter>
+    </ClInclude>
+    <ClInclude Include="Hack.h">
+      <Filter>Header Files\hack</Filter>
+    </ClInclude>
+    <ClInclude Include="gui.h">
+      <Filter>Header Files\hack\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files\hack\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Options.h">
+      <Filter>Header Files\hack</Filter>
+    </ClInclude>
+    <ClInclude Include="MyInput.h">
+      <Filter>Header Files\hack</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\EntitiesMP\EnemyBase.h">
+      <Filter>Header Files\sdk\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\EntitiesMP\PlayerWeapons.h">
+      <Filter>Header Files\sdk\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\EntitiesMP\PowerUpItem.h">
+      <Filter>Header Files\sdk\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\EntitiesMP\WeaponItem.h">
+      <Filter>Header Files\sdk\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\EntitiesMP\Global.h">
+      <Filter>Header Files\sdk\Entities</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
