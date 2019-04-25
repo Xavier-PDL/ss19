@@ -1,4 +1,4 @@
-#**Serious Sam Hack**
+#Serious Sam Hack
 
 Probably an over featured cheat for a really old game but it was fun hacking this together.
 
