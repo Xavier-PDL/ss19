@@ -79,14 +79,18 @@ namespace NT
 
 #ifdef _WIN64
 		auto pLoc = (BYTE*) TMem::Get()->ScanPattern( GetModuleHandle( _X( "ntdll.dll" ) ), "48 8D 0D ? ? ? ? 48 8B 0C F1" );
-		pVehHandlerList = (PVEH_HANDLER_LIST) ((pLoc + 7 + *(DWORD*) (pLoc + 3)));
+		if(pLoc)
+			pVehHandlerList = (PVEH_HANDLER_LIST) ((pLoc + 7 + *(DWORD*) (pLoc + 3)));
 		pLoc = (BYTE*) TMem::Get()->ScanPattern( GetModuleHandle( _X( "ntdll.dll" ) ), "8B 0D ? ? ? ? C7 40 10 01 00 00 00 85 C9" );
-		dwEncoderKey = *(DWORD*) (pLoc + 6 + *(DWORD*) (pLoc + 2));
+		if(pLoc)
+			dwEncoderKey = *(DWORD*) (pLoc + 6 + *(DWORD*) (pLoc + 2));
 #else
 		auto pLoc = (DWORD) TMem::Get()->ScanPattern( GetModuleHandle( _X( "ntdll.dll" ) ), "81 C3 ? ? ? ? 8D 7B 04" );
-		pVehHandlerList = *(PVEH_HANDLER_LIST*) (pLoc + 2);
+		if(pLoc)
+			pVehHandlerList = *(PVEH_HANDLER_LIST*) (pLoc + 2);
 		pLoc = ((DWORD) TMem::Get()->ScanPattern( GetModuleHandle( _X( "ntdll.dll" ) ), "A1 ? ? ? ? C7 46 ? 01 00 00 00 85 C0" ));
-		dwEncoderKey = **(DWORD**) (pLoc + 1);
+		if(pLoc)
+			dwEncoderKey = **(DWORD**) (pLoc + 1);
 #endif
 		if ( !pVehHandlerList )
 			return false;
