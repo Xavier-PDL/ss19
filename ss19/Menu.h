@@ -30,6 +30,7 @@ public:
 	Menu();
 	~Menu();
 	void Toggle();
+	bool isShown();
 	void HandleInput();
 	void Draw();
 	void CreateControls();

@@ -48,11 +48,11 @@ Menu::~Menu()
 void Menu::Toggle()
 {
 	bShow = !bShow;
-	if ( bShow )
-		_pInput->DisableInput();
-	else
-		_pInput->EnableInput( _pGfx->gl_pvpActive );
+}
 
+bool Menu::isShown()
+{
+	return bShow;
 }
 
 void Menu::HandleInput()

@@ -72,6 +72,13 @@ void Hack::HandleInput()
 	if ( Input::GetKeyState( VK_TAB ).isUp() )
 	{
 		pMenu->Toggle();
+		if (GetSamPtr())
+		{
+			if (pMenu->isShown())
+				_pInput->DisableInput();
+			else
+				_pInput->EnableInput(_pGfx->gl_pvpActive);
+		}
 	}
 
 	pMenu->HandleInput();
