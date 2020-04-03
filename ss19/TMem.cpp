@@ -163,7 +163,7 @@ namespace NT
 
 		IMAGE_IMPORT_DESCRIPTOR* pImportDir = (IMAGE_IMPORT_DESCRIPTOR*) RVAtoVA( pDos, pDataDir->VirtualAddress );
 
-		for ( int x = 0; x < pDataDir->Size / sizeof( IMAGE_IMPORT_DESCRIPTOR ); x++ )
+		for ( unsigned int x = 0; x < pDataDir->Size / sizeof( IMAGE_IMPORT_DESCRIPTOR ); x++ )
 		{
 			auto nameRVA = pImportDir->Name;
 			char* pName = (char*) RVAtoVA( pDos, nameRVA );
