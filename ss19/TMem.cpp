@@ -182,13 +182,13 @@ namespace NT
 				pImportLookup = (IMAGE_IMPORT_BY_NAME*) RVAtoVA( pDos, ImportLookupRVA );
 
 				char* name = pImportLookup->Name;
-				if (name)
+				if ((int)name & 0x80000000)
+					break;
+				if (!lstrcmpA(name, szFunction))
 				{
-					if (!lstrcmpA(name, szFunction))
-					{
-						return (void*)pImportFunc;
-					}
+					return (void*)pImportFunc;
 				}
+				
 				pImportsLookup++;
 				pImportFunc++;
 			} while ( pImportLookup );
